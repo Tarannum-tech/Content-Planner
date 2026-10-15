@@ -1,6 +1,7 @@
 # 📅 AI Topic Content Planner
 
 An NLP-powered content planning tool that generates content ideas, SEO keywords, sentiment analysis, topic clusters, and a publishing calendar from a single topic — built with Python, spaCy, scikit-learn, Streamlit, and Google Gemini API.
+ [**Live Demo →**]( https://content-planner-3bhajmgdn36rdtbih28cva.streamlit.app/)
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.36-red)
