@@ -50,5 +50,26 @@ Content creators face "blank page syndrome" — they struggle to come up with fr
 | **Data** | Pandas, NumPy |
 
 ---
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshot/home-page.png)
+
+### 💡 Content Ideas
+![Ideas](screenshot/Analyz-Generate-idea.png)
+![Ideas](screenshot/generate-plane-proceess.png)
+
+
+### 🔑 Keywords & Word Cloud
+![Keywords](screenshot/SEO-Keyword.png)
+![cluster](screenshot/Topic-Cluster.png)
+![Ideas](screenshot/Word-cloud.png)
+
+
+### 📊 Analytics Dashboard
+![Analytics](screenshot/Content-Analytics.png)
+
+### 📆 Content Calendar
+![Calendar](screenshot/Content-Calendar.png)
 
 ## 🔄 NLP Pipeline
