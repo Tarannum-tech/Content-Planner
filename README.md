@@ -73,3 +73,5 @@ Content creators face "blank page syndrome" — they struggle to come up with fr
 ![Calendar](screenshot/Content-Calendar.png)
 
 ## 🔄 NLP Pipeline
+<img width="1502" height="2192" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/79313e72-54a0-4afb-b194-3f1107e9b9c5" />
+
