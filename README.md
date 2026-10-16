@@ -1,52 +1,77 @@
-📅 AI Topic Content Planner
-An NLP-powered content planning tool that generates content ideas, SEO keywords, sentiment analysis, topic clusters, and a publishing calendar from a single topic — built with Python, spaCy, scikit-learn, Streamlit, and Google Gemini API. Live Demo →
+# 📅 AI Topic Content Planner
 
-Python Streamlit spaCy License
+An NLP-powered content planning tool that generates content ideas, SEO keywords, sentiment analysis, topic clusters, and a publishing calendar from a single topic — built with Python, spaCy, scikit-learn, Streamlit, and Google Gemini API.
+ [**Live Demo →**]( https://content-planner-3bhajmgdn36rdtbih28cva.streamlit.app/)
 
-🎯 What It Does
-Content creators face "blank page syndrome" — they struggle to come up with fresh ideas, optimize for SEO, and plan a publishing schedule. AI Topic Content Planner solves this in under 10 seconds by combining Large Language Models with traditional NLP techniques.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.36-red)
+![spaCy](https://img.shields.io/badge/spaCy-3.7-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Input: A topic (e.g., "cooking for beginners") Output: A complete content strategy — ideas, keywords, sentiment, clusters, and a calendar.
+---
 
-✨ Features
-Feature	Technique
-🤖 AI Idea Generation	Google Gemini LLM
-🔑 SEO Keyword Extraction	spaCy Noun Chunks
-🏷️ Named Entity Recognition	spaCy NER
-😊 Sentiment Analysis	TextBlob
-🗂️ Topic Clustering	TF-IDF + K-Means
-🔍 Duplicate Detection	Cosine Similarity
-📖 Readability Analysis	Flesch-Kincaid
-📆 Auto Content Calendar	Custom scheduler
-☁️ Word Cloud Visualization	WordCloud library
-📝 Script Generator	LLM-based
-⬇️ CSV Export	Pandas
-🛠️ Tech Stack
-Layer	Technology
-Language	Python 3.12
-NLP	spaCy, TextBlob, textstat
-ML	scikit-learn (TF-IDF, K-Means, Cosine Similarity)
-LLM	Google Gemini API (gemini-1.5-flash)
-UI	Streamlit
-Visualization	Matplotlib, WordCloud
-Data	Pandas, NumPy
-📸 Screenshots
-🏠 Homepage
-Homepage
+## 🎯 What It Does
 
-💡 Content Ideas
-Ideas Ideas
+Content creators face "blank page syndrome" — they struggle to come up with fresh ideas, optimize for SEO, and plan a publishing schedule. **AI Topic Content Planner** solves this in **under 10 seconds** by combining Large Language Models with traditional NLP techniques.
 
-🔑 Keywords & Word Cloud
-Keywords cluster Ideas
+**Input:** A topic (e.g., "cooking for beginners")
+**Output:** A complete content strategy — ideas, keywords, sentiment, clusters, and a calendar.
 
-📊 Analytics Dashboard
-Analytics
+---
 
-📆 Content Calendar
-Calendar
+## ✨ Features
 
-🔄 NLP Pipeline
+| Feature | Technique |
+|---------|-----------|
+| 🤖 AI Idea Generation | Google Gemini LLM |
+| 🔑 SEO Keyword Extraction | spaCy Noun Chunks |
+| 🏷️ Named Entity Recognition | spaCy NER |
+| 😊 Sentiment Analysis | TextBlob |
+| 🗂️ Topic Clustering | TF-IDF + K-Means |
+| 🔍 Duplicate Detection | Cosine Similarity |
+| 📖 Readability Analysis | Flesch-Kincaid |
+| 📆 Auto Content Calendar | Custom scheduler |
+| ☁️ Word Cloud Visualization | WordCloud library |
+| 📝 Script Generator | LLM-based |
+| ⬇️ CSV Export | Pandas |
 
-<!-- ![alt text](mermaid-diagram.png) -->
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Language** | Python 3.12 |
+| **NLP** | spaCy, TextBlob, textstat |
+| **ML** | scikit-learn (TF-IDF, K-Means, Cosine Similarity) |
+| **LLM** | Google Gemini API (gemini-1.5-flash) |
+| **UI** | Streamlit |
+| **Visualization** | Matplotlib, WordCloud |
+| **Data** | Pandas, NumPy |
+
+---
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshot/home-page.png)
+
+### 💡 Content Ideas
+![Ideas](screenshot/Analyz-Generate-idea.png)
+![Ideas](screenshot/generate-plane-proceess.png)
+
+
+### 🔑 Keywords & Word Cloud
+![Keywords](screenshot/SEO-Keyword.png)
+![cluster](screenshot/Topic-Cluster.png)
+![Ideas](screenshot/Word-cloud.png)
+
+
+### 📊 Analytics Dashboard
+![Analytics](screenshot/Content-Analytics.png)
+
+### 📆 Content Calendar
+![Calendar](screenshot/Content-Calendar.png)
+
+## 🔄 NLP Pipeline
 <img width="1502" height="2192" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/79313e72-54a0-4afb-b194-3f1107e9b9c5" />
+
